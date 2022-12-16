@@ -1,0 +1,5 @@
+version: '3.7'
+services:
+    pa-captive-script:
+        build: '.'
+        env_file: './.config.env'
